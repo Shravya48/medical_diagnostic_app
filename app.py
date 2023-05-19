@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 from sklearn.preprocessing import StandardScaler
 
+
 #Step 1 : Load the train model
 model=open('rfc.pickle','rb')                   #rb: read in binary format
 clf=pickle.load(model)
